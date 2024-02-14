@@ -15,6 +15,7 @@ export default function Home() {
         <a className="text-blue-600" href="/close/unstable-cache">unstable_cache</a>
         <a className="text-blue-600" href="/close/unstable-cache/streaming">unstable_cache + streaming</a>
         <a className="text-blue-600" href="/close/unstable-cache/streaming-edge">unstable_cache + streaming (vercel edge runtime)</a>
+        <a className="text-blue-600" href="/close/uncached">uncached</a>
       </div>
     </main>
   );
