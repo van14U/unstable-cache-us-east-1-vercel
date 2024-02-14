@@ -4,6 +4,8 @@ const SIMULATED_LATENCY = 25
 
 const getTime = getTimeFn(SIMULATED_LATENCY);
 
+export const dynamic = 'force-dynamic';
+
 export default async function Page() {
   const start = Date.now();
   const time = await getTime()
